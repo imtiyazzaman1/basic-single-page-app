@@ -15,6 +15,6 @@ describe('viewing index', function() {
   });
 
   it('displays the text "Push the button!"', function() {
-    expect(browser.text('h1')).toEqual("Push the button!");
+    expect(browser.text('h1')).toContain("Push the button!");
   });
 });
