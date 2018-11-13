@@ -17,4 +17,8 @@ describe('viewing index', function() {
   it('displays the text "Push the button!"', function() {
     expect(browser.text('h1')).toContain("Push the button!");
   });
+
+  it('contain a clickable link', function() {
+    expect(browser.clickLink('#button')).toBeDefined();
+  });
 });
