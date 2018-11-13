@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
   res.render("index");
 });
 
-app.listen(PORT, () => {
-  console.log("server up")
+app.listen(PORT, function () {
+  return console.log('server up');
 });
