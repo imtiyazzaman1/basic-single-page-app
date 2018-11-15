@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/jasmine spec/features/*Spec.js"
+    "test": "npx cypress open"
   },
   "keywords": [],
   "author": "",
